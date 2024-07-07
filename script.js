@@ -51,7 +51,7 @@ function startGame() {
             message.style.backgroundColor = 'red';
             endGame();
         } else {
-            message.textContent = guess < randomNumber ? 'Too low. Try again!' : 'Too high. Try again!';
+            message.textContent = guess < randomNumber ? 'low. Try again!' : 'high. Try again!';
             message.style.backgroundColor = 'red';
         }
     });
